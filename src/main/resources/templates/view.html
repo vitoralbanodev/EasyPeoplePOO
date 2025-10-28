@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Detalhes da Pessoa</title>
+</head>
+<body>
+<h1 th:text="'Detalhes de ' + ${pessoa.nome}"></h1>
+
+<p><b>ID:</b> <span th:text="${pessoa.id}"></span></p>
+<p><b>Email:</b> <span th:text="${pessoa.email}"></span></p>
+<p><b>Idade:</b> <span th:text="${pessoa.idade}"></span></p>
+<p><b>Cidade:</b> <span th:text="${pessoa.cidade}"></span></p>
+
+<a href="/pessoas">Voltar</a>
+</body>
+</html>

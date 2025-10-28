@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Cadastro de Pessoa</title>
+</head>
+<body>
+<h1 th:text="${pessoa.id == null ? 'Nova Pessoa' : 'Editar Pessoa'}"></h1>
+
+<form th:action="@{/pessoas/salvar}" th:object="${pessoa}" method="post">
+    <input type="hidden" th:field="*{id}"/>
+
+    Nome: <input type="text" th:field="*{nome}" /><br/>
+    Email: <input type="text" th:field="*{email}" /><br/>
+    Idade: <input type="number" th:field="*{idade}" /><br/>
+    Cidade: <input type="text" th:field="*{cidade}" /><br/>
+
+    <button type="submit">Salvar</button>
+</form>
+
+<a href="/pessoas">Voltar</a>
+</body>
+</html>
