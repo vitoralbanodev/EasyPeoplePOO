@@ -1,10 +1,15 @@
 package com.easypeople.controller;
 
-import com.easypeople.entity.PessoaEntity;
-import com.easypeople.repository.PessoaRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.easypeople.entity.PessoaEntity;
+import com.easypeople.repository.PessoaRepository;
 
 @Controller
 @RequestMapping("/pessoas")
@@ -19,6 +24,7 @@ public class PessoaController {
     @GetMapping
     public String listar(Model model) {
         model.addAttribute("pessoas", repository.findAll());
+        model.addAttribute("pessoa", new PessoaEntity());
         return "list";
     }
 
