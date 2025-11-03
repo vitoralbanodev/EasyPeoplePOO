@@ -1,4 +1,4 @@
-# 🧩 EasyPeople
+<img width="1914" height="939" alt="image" src="https://github.com/user-attachments/assets/b8031b76-5e98-4b13-881e-2f034bb7421e" /># 🧩 EasyPeople
 
 Projeto criado para aula de Programação Orientada a Objetos(POO) usando SpringBoot e Thymeleaf
 
@@ -32,4 +32,4 @@ Abaixo está uma prévia do protótipo desenvolvido no Figma:
 
 **Vitor Albano**  
 📧 <vitor-albano@hotmail.com>  
-🔗 [LinkedIn](<https://www.linkedin.com/in/vitoralbano>)
+🔗 [LinkedIn](<https://www.linkedin.com/in/vitoralbanodev>)
