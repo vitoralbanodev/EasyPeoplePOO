@@ -1,4 +1,4 @@
-# 🧩 Nome do Projeto
+# 🧩 EasyPeople
 
 Projeto criado para aula de Programação Orientada a Objetos(POO) usando SpringBoot e Thymeleaf
 
