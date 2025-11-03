@@ -32,4 +32,4 @@ Abaixo está uma prévia do protótipo desenvolvido no Figma:
 
 **Vitor Albano**  
 📧 <vitor-albano@hotmail.com>  
-🔗 [LinkedIn](<https://www.linkedin.com/in/vitoralbanodev>)
+🔗 [LinkedIn](<https://www.linkedin.com/in/vitoraalbano>)
